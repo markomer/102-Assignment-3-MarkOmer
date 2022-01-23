@@ -1,0 +1,76 @@
+table{
+  border:1px dashed black;
+  border-collapse: collapse;
+}
+table.test-table {
+  background-color: bisque;
+}
+table.test-table td{
+  border:1px solid black;
+  padding: 1rem;/*16px*/
+}
+td.error{
+  color: red
+}
+
+table.exercise-table {
+  border: solid green;
+  width: 400px;
+
+  background-color: rgb(233, 227, 227);
+}
+table.exercise-table td{
+  border:2px solid purple;
+  width: 80px;
+  padding-left: 20px;
+}
+span.exercise-name{
+  color: blueviolet;
+}
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 400px;
+  border: 1px solid black;
+  flex-wrap: wrap;
+}
+.flex-child-1{
+  background-color: green;
+  color: yellow;
+  height: 100px;
+  border: 1px solid yellow;
+  padding: 25px;
+  flex-basis: 100px;
+  margin-right: 400px;
+}
+.flex-child-2{
+  background-color: green;
+  color: yellow;
+  border: 1px solid yellow;
+  padding: 10px;
+  flex-basis: 100px;
+}
+.flex-child-3{
+  background-color: green;
+  color: yellow;
+  border: 1px solid yellow;
+  padding: 10px;
+  flex-basis: 100px;
+}
+
+.site-header nav {
+  display:
+}
+
+nav.site-header {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 768px) {
+  nav.site-header {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
